@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Definition of module
+"""
 
 
 def is_same_class(obj, a_class):
