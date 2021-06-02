@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" defines"""
 
 
 def save_to_json_file(my_obj, filename):
