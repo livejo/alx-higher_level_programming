@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" defines a rectangle"""
 
 
 def class_to_json(obj):
