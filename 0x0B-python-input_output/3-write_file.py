@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" defines"""
 
 
 def write_file(filename="", text=''):
