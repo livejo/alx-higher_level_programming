@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" defines a rectangle"""
 
 
 def from_json_string(my_str):
