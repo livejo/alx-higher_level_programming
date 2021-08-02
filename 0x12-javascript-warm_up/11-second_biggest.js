@@ -1,15 +1,14 @@
 #!/usr/bin/node
-/*
-prints statements about c, python, and javascript */
-'use strict';
-if ((process.argv.length <= 3)) {
-  console.log(0);
-} else {
-  let numArray = [];
-  for (let i = 2; i < process.argv.length; i++) {
-    numArray.push(parseInt(process.argv[i]));
-    numArray = numArray.sort();
+function Big (arr) {
+  let maxnum = 0; let result = 0;
+  for (const value of arr) {
+    const nr = Number(value);
+    if (nr > maxnum) {
+      [result, maxnum] = [maxnum, nr];
+    } else if (nr < maxnum && nr > result) {
+      result = nr;
+    }
   }
-  numArray.reverse();
-  console.log(numArray[1]);
+  return (result);
 }
+console.log(Big(process.argv));
