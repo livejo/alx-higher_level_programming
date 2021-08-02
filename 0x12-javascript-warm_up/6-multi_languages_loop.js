@@ -1,7 +1,5 @@
 #!/usr/bin/node
-/*
-prints statements about c, python, and javascript */
-const statements = ['C is fun', 'Python is cool', 'Javascript is amazing'];
-for (let s = 0; s in statements; s++) {
-  console.log(statements[s]);
+const arr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
 }
